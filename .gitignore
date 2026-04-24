@@ -1,0 +1,10 @@
+.env
+.venv/
+vector_store/
+data/raw_docs/
+data/processed/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
