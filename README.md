@@ -1,19 +1,44 @@
-# Personal Knowledge AI Assistant
+# Personal-Knowledge-AI
+AI-powered document assistant using RAG + Ollama (offline ChatGPT for your books)
 
-A local document-grounded AI assistant that answers only from your PDFs, DOCX, and TXT files.
+# 📚 Personal Knowledge AI Assistant
 
-## Features
-- Reads PDF, DOCX, TXT
-- Chunks documents
-- Creates embeddings
-- Searches relevant chunks using FAISS
-- Answers only from retrieved content
-- Default language Hinglish
-- Supports Hindi / English / Hinglish output
-- Includes citations with file/page/section
+An AI-powered document assistant that lets you ask questions from your own books (PDF, DOCX, TXT) using RAG (Retrieval-Augmented Generation) with local LLMs via Ollama.
 
-## Setup
+---
 
-### 1. Create virtual environment
+## 🚀 Features
+
+- 🔍 Ask questions from your personal documents
+- 📄 Supports PDF, DOCX, TXT
+- ⚡ Fast semantic search using vector embeddings
+- 🤖 Works with local models (Llama, Mistral, Dolphin)
+- 🔒 Fully offline (no API required)
+- 🎯 Accurate answers with source references
+- 📊 Shows relevance score + response time
+
+---
+
+## 🧠 Tech Stack
+
+- Python
+- Streamlit (UI)
+- Ollama (LLM)
+- Sentence Transformers (Embeddings)
+- FAISS (Vector DB)
+
+---
+
+## 📸 Demo
+
+![App Screenshot](assets/demo.png)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone Repo
+
 ```bash
-python -m venv venv
+git clone https://github.com/your-username/personal-knowledge-ai.git
+cd personal-knowledge-ai
